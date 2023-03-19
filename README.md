@@ -25,7 +25,7 @@ n/a
 ### Executing program
 
 1. Download the project code
-2. Open _ProgammingAssignment3/ProgrammingAssignment3.sln_
+2. Open _ProgammingAssignment4/ProgrammingAssignment4.sln_
 3. Run _Program.cs_
  
 ## Help
