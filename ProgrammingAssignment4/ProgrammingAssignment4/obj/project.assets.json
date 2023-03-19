@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\timch\\.nuget\\packages\\": {}
+    "C:\\Users\\lyndo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timch\\source\\repos\\ProgrammingAssignment4\\ProgrammingAssignment4\\ProgrammingAssignment4.csproj",
+      "projectUniqueName": "C:\\Users\\lyndo\\GitHubProjects\\the-digitizer\\ProgrammingAssignment4\\ProgrammingAssignment4\\ProgrammingAssignment4.csproj",
       "projectName": "ProgrammingAssignment4",
-      "projectPath": "C:\\Users\\timch\\source\\repos\\ProgrammingAssignment4\\ProgrammingAssignment4\\ProgrammingAssignment4.csproj",
-      "packagesPath": "C:\\Users\\timch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timch\\source\\repos\\ProgrammingAssignment4\\ProgrammingAssignment4\\obj\\",
+      "projectPath": "C:\\Users\\lyndo\\GitHubProjects\\the-digitizer\\ProgrammingAssignment4\\ProgrammingAssignment4\\ProgrammingAssignment4.csproj",
+      "packagesPath": "C:\\Users\\lyndo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lyndo\\GitHubProjects\\the-digitizer\\ProgrammingAssignment4\\ProgrammingAssignment4\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\timch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lyndo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

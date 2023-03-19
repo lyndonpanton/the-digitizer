@@ -14,6 +14,7 @@ namespace ProgrammingAssignment4
         #region Fields
 
         // declare your Dictionary field and create the Dictionary object for it here
+        Dictionary<string, int> digitizedNumbers = new Dictionary<string, int>();
 
         #endregion
 
@@ -25,6 +26,17 @@ namespace ProgrammingAssignment4
         public Digitizer()
         {
             // populate your dictionary field here
+            digitizedNumbers.Add("zero", 0);
+            digitizedNumbers.Add("one", 1);
+            digitizedNumbers.Add("two", 2);
+            digitizedNumbers.Add("three", 3);
+            digitizedNumbers.Add("four", 4);
+            digitizedNumbers.Add("five", 5);
+            digitizedNumbers.Add("six", 6);
+            digitizedNumbers.Add("seven", 7);
+            digitizedNumbers.Add("eight", 8);
+            digitizedNumbers.Add("nine", 9);
+
         }
 
         #endregion
@@ -39,8 +51,16 @@ namespace ProgrammingAssignment4
         /// <returns>corresponding digit or -1</returns>
         public int ConvertWordToDigit(string word)
         {
-            // delete the code below and add your code
-            return -1;
+            word = word.ToLower();
+
+            if (digitizedNumbers.ContainsKey(word))
+            {
+                return digitizedNumbers[word];
+            }
+            else
+            {
+                return -1;
+            }
         }
 
         #endregion
